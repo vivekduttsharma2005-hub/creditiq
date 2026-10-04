@@ -46,9 +46,11 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-RAW_PATH = Path("data/raw/accepted.csv")
-SAMPLE_PATH = Path("data/sample/sample_accepted.csv")
+RAW_PATH = Path(
+    "data/raw/lendingclub_download/accepted_2007_to_2018Q4.csv.gz"
+)
 
+SAMPLE_PATH = Path("data/sample/sample_accepted.csv")
 
 def load_data(source="real", path=None) -> pd.DataFrame:
     """source='real' = Kaggle data, source='sample' = fake data."""

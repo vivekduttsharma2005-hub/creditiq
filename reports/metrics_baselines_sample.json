@@ -1,0 +1,30 @@
+{
+  "base_rate": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.05608591885441527,
+    "ks": 0.0,
+    "recall_at_precision_50": 0.0,
+    "brier": 0.05294036980600723
+  },
+  "logistic_no_lender": {
+    "roc_auc": 0.6793716545175781,
+    "pr_auc": 0.11812866925763425,
+    "ks": 0.33047314199639566,
+    "recall_at_precision_50": 0.0,
+    "brier": 0.2080902195553013
+  },
+  "logistic_no_lender_unweighted": {
+    "roc_auc": 0.6767625144578638,
+    "pr_auc": 0.11608261108983109,
+    "ks": 0.3121015681738709,
+    "recall_at_precision_50": 0.0,
+    "brier": 0.05258931686695709
+  },
+  "logistic_with_lender": {
+    "roc_auc": 0.7719826774618717,
+    "pr_auc": 0.20312364360564808,
+    "ks": 0.46337789493504045,
+    "recall_at_precision_50": 0.0425531914893617,
+    "brier": 0.18830343144308717
+  }
+}
