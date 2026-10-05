@@ -1,0 +1,6 @@
+{
+  "method": "platt",
+  "decline_threshold": 0.09,
+  "cost_fn": 10.0,
+  "cost_fp": 1.0
+}

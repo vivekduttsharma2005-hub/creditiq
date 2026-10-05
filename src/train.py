@@ -1,3 +1,6 @@
+"""Day 4: LightGBM with/without imbalance weighting and with/without lender columns.
+Run: python -m src.train --source sample   (or real)
+Uses validation only. The TEST set is still untouched."""
 import argparse, json
 from pathlib import Path
 import joblib
@@ -7,7 +10,7 @@ from sklearn.metrics import average_precision_score
 from src.data import load_data, time_split
 from src.features import FeatureBuilder
 from src.evaluate import evaluate
-
+from src.tracking import log_run
 
 
 def fit_lgbm(X_tr, y_tr, X_va, y_va, weighted, seed=42):

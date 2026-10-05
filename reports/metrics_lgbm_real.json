@@ -1,0 +1,40 @@
+{
+  "lgbm_no_lender_plain": {
+    "roc_auc": 0.7255157013051443,
+    "pr_auc": 0.405291962170632,
+    "ks": 0.32727479933496073,
+    "recall_at_precision_50": 0.24434389140271492,
+    "brier": 0.14450769065761113,
+    "train_pr_auc": 0.3705194661249833,
+    "trees_used": 877,
+    "saved_as_champion": true
+  },
+  "lgbm_no_lender_weighted": {
+    "roc_auc": 0.699976393397868,
+    "pr_auc": 0.37491393622690306,
+    "ks": 0.28331451386023815,
+    "recall_at_precision_50": 0.16417556033402372,
+    "brier": 0.15671306384791683,
+    "train_pr_auc": 0.2999718369532892,
+    "trees_used": 7
+  },
+  "lgbm_with_lender_plain": {
+    "roc_auc": 0.7330482902155212,
+    "pr_auc": 0.40996875414157113,
+    "ks": 0.33864968448058047,
+    "recall_at_precision_50": 0.25070247879371527,
+    "brier": 0.1439948382567491,
+    "train_pr_auc": 0.3479778995733171,
+    "trees_used": 391,
+    "saved_as_champion": true
+  },
+  "lgbm_with_lender_weighted": {
+    "roc_auc": 0.7229254615930506,
+    "pr_auc": 0.39463448053695677,
+    "ks": 0.32487682794668293,
+    "recall_at_precision_50": 0.20022954236639712,
+    "brier": 0.15314460911998992,
+    "train_pr_auc": 0.31241987491771517,
+    "trees_used": 11
+  }
+}

@@ -1,0 +1,4 @@
+cost_ratio,theory_threshold,best_threshold,pct_declined,defaulters_caught_pct,precision_pct,cost,cost_approve_all,cost_at_0.5
+2.0,0.333,0.31,17.5,38.7,44.4,64344.0,75182.0,70133.0
+5.0,0.167,0.17,47.1,73.2,31.1,111415.0,187955.0,171581.0
+10.0,0.091,0.09,78.1,93.7,24.0,135308.0,375910.0,340661.0
