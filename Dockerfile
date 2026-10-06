@@ -11,5 +11,6 @@ COPY src/ ./src/
 COPY models/calibrated_real.joblib ./models/calibrated_real.joblib
 
 ENV CREDITIQ_MODEL=/app/models/calibrated_real.joblib
+
 EXPOSE 8000
-CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn src.api:app --host 0.0.0.0 --port ${PORT:-8000}"]
