@@ -182,7 +182,8 @@ def _validate_data(df: pd.DataFrame):
             "Found unresolved loan statuses after cleaning."
         )
 
-
+    if (df["loan_amnt"] <= 0).any():
+        raise ValueError("loan_amnt must be greater than 0.")
 TRAIN_END = "2015-01-01"
 
 VAL_END = "2016-01-01"

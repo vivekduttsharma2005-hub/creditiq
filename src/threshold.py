@@ -47,3 +47,10 @@ def decision(p, decline_threshold):
     if p >= 0.5 * decline_threshold:
         return "review"
     return "approve"
+def risk_band(p, decline_threshold):
+    """Return a simple risk band consistent with the decision threshold."""
+    if p >= decline_threshold:
+        return "High"
+    if p >= 0.5 * decline_threshold:
+        return "Medium"
+    return "Low"

@@ -10,3 +10,5 @@ fastapi
 uvicorn
 streamlit
 pytest
+httpx
+request

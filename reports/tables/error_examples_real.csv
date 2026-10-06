@@ -1,0 +1,11 @@
+type,risk_%,top_risk_reasons
+MISSED defaulter,1.1,Loan size relative to income | Loan amount | Few credit accounts on file
+MISSED defaulter,1.1,Revolving balance | Loan amount | Loan size relative to income
+MISSED defaulter,1.1,Revolving balance | High monthly installment | Loan size relative to income
+MISSED defaulter,1.2,Low annual income | Few credit accounts on file | Loan amount
+MISSED defaulter,1.2,Many open credit lines | Loan size relative to income | Few credit accounts on file
+wrongly declined,86.0,Longer loan term | Many open credit lines | High debt-to-income ratio
+wrongly declined,81.0,Longer loan term | Many open credit lines | High debt-to-income ratio
+wrongly declined,80.6,Longer loan term | High debt-to-income ratio | High monthly installment
+wrongly declined,79.7,Longer loan term | High debt-to-income ratio | Loan is large relative to income
+wrongly declined,79.0,Longer loan term | High monthly installment | Revolving balance

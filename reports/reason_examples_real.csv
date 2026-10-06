@@ -1,0 +1,6 @@
+risk_pct,reasons
+78.2,Longer loan term | Loan is large relative to income | High debt-to-income ratio
+75.6,Longer loan term | Loan is large relative to income | High debt-to-income ratio
+73.8,Longer loan term | High debt-to-income ratio | Low credit score
+71.5,Longer loan term | Loan is large relative to income | Missing information: emp years
+71.4,Longer loan term | Loan is large relative to income | Revolving balance

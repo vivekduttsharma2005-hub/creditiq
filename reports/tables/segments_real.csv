@@ -1,0 +1,27 @@
+segment,group,n,actual_default_%,avg_predicted_%,declined_%,calibration_gap_pp
+income_band,Q1 lowest,94590,23.1,24.7,67.5,1.6
+income_band,Q2,85503,21.8,22.1,53.7,0.3
+income_band,Q3,93286,20.1,19.2,44.3,-0.9
+income_band,Q4 highest,102166,16.3,15.3,33.2,-1.0
+emp_band,unknown,22058,25.1,25.2,70.6,0.1
+emp_band,0-1 yrs,55823,20.6,20.6,51.0,0.0
+emp_band,2-9 yrs,173674,20.2,20.2,49.2,0.0
+emp_band,10+ yrs,123990,19.1,19.1,44.8,0.0
+term_months,36,283026,14.9,15.2,35.2,0.3
+term_months,60,92519,36.4,35.6,92.2,-0.8
+home_ownership,MORTGAGE,182130,17.5,17.9,41.8,0.4
+home_ownership,OWN,41071,20.6,20.6,51.7,0.0
+home_ownership,RENT,152342,23.3,22.8,57.6,-0.5
+purpose,car,3203,16.0,16.0,34.9,0.0
+purpose,credit_card,90092,16.8,16.2,35.1,-0.6
+purpose,debt_consolidation,222050,21.6,21.7,54.4,0.1
+purpose,home_improvement,22707,18.1,18.2,42.3,0.1
+purpose,house,1331,25.1,25.0,66.6,-0.1
+purpose,major_purchase,6730,19.4,18.6,42.7,-0.8
+purpose,medical,3684,21.0,21.6,60.3,0.6
+purpose,moving,2313,22.8,24.0,65.7,1.2
+purpose,other,17944,20.7,21.9,58.3,1.2
+purpose,renewable_energy,214,26.2,22.6,63.6,-3.6
+purpose,small_business,3081,28.3,32.3,88.8,4.0
+purpose,vacation,2191,18.1,18.4,45.9,0.3
+issue_year,2015,375545,20.2,20.2,49.3,0.0

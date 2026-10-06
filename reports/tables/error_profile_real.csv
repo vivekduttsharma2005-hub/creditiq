@@ -1,0 +1,5 @@
+kind,dti,revol_util,annual_inc,fico_avg,loan_to_income,count
+MISSED defaulter,16.25,51.3,71725.0,692.0,0.16,19265
+approved good,15.43,48.6,75000.0,702.0,0.16,171243
+caught defaulter,22.33,57.9,57000.0,677.0,0.28,56538
+wrongly declined,21.26,57.4,55000.0,682.0,0.25,128499
