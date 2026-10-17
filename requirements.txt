@@ -11,4 +11,4 @@ uvicorn
 streamlit
 pytest
 httpx
-request
+requests
